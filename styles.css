@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  margin: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+/* exercise 1 */
+.ex-one-container {
+  background-color: lightgray;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
+
+/* exercise 2 */
+.ex-two-container {
+  background-color: lightgray;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* exercise 3 */
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-items {
+  list-style-type: none;
+  border: 1px solid black;
+  background-color: blanchedalmond;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+/* exercise 4 */
+.profile-card {
+  border: 1px solid orange;
+  width: 200px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-card img {
+  border-radius: 50%;
+}
+
+.profile-card h3,
+.profile-card p {
+  margin-bottom: 0 !important;
+}
+
+/* exercise 5 */
+.course-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  border: 1px solid lightgrey;
+  padding: 1rem;
+  align-items: center;
+}
+
+.course-card h3 {
+  margin-top: 0 !important;
+}
+
+.course-card img {
+  width: 100%;
+}
+
+.course-card p {
+  font-size: 14px;
+}
+
+.btn-course {
+  background-color: blanchedalmond;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+/* exercise 6 */
+.product-card {
+  border: 1px solid lightgray;
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 1rem;
+  max-width: 400px;
+  padding: 1rem;
+  height: 100%;
+}
+
+.product-card img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.product-card .card-body {
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 1rem; */
+}
+
+.product-card .card-body h3 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.product-card .card-body p {
+  font-size: 18px;
+}
+
+.btn-primary {
+  color: white !important;
+  background-color: lightseagreen;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+/* exercise 7 */
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  padding: 1rem;
+  max-width: 400px;
+}
+
+.testimonial-card div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.testimonial-card div img {
+  border-radius: 50%;
+}
+
+/* exercise 8 */
+.pricing-card {
+  border: 1px solid lightgray;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+}
+
+.pricing-card h3 {
+  margin: 0;
+}
+
+.pricing-card p {
+  font-size: 17px;
+}
+
+.pricing-card .price {
+  color: orange;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0;
+  border-bottom: 2px solid lightgray;
+}
+
+.pricing-card .info {
+  margin: 5px 0;
+  width: 100%;
+}
+
+.pricing-card .info-list,
+footer .col ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 0;
+}
+
+.pricing-card .btn-plan {
+  color: white;
+  background-color: orange;
+  padding: 0.5rem 1rem;
+  font-size: 17px;
+}
+
+/* exercise 9 */
+.product-row,
+footer .row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* exercise 10 */
+footer {
+  background-color: plum;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .col {
+  flex-grow: 1;
+}
+
+footer .link {
+  color: white;
+}
